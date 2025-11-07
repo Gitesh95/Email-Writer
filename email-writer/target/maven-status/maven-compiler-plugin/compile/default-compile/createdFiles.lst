@@ -1,0 +1,6 @@
+com\email_writer\email_writer\Model\EmailReply.class
+com\email_writer\email_writer\Repository\EmailReplyRepository.class
+com\email_writer\email_writer\DTO\EmailRequest.class
+com\email_writer\email_writer\EmailWriterApplication.class
+com\email_writer\email_writer\Controller\EmailController.class
+com\email_writer\email_writer\Service\EmailGeneratorService.class

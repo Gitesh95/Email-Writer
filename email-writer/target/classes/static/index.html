@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Reply Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Email Reply Generator</h1>
+    <textarea id="emailContent" placeholder="Paste full email here..." rows="10"></textarea>
+
+    <select id="tone">
+        <option value="">Select tone (optional)</option>
+        <option value="professional">Professional</option>
+        <option value="casual">Casual</option>
+        <option value="friendly">Friendly</option>
+    </select>
+
+    <button align="center" id="generateBtn" >Generate Reply</button>
+    <div id="loading" style="display:none;">Generating...</div>
+    <div id="error" style="color:red;"></div>
+
+    <h2>Generated Reply</h2>
+    <textarea id="generatedReply" readonly rows="6"></textarea>
+    <button id="copyBtn">Copy to Clipboard</button>
+</div>
+
+<script src="Script.js"></script>
+</body>
+</html>
